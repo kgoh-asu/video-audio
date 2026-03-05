@@ -90,6 +90,11 @@
                     <p>We are going to add the audio file from the audio folder in this project to the page using the HTML5 <code>audio</code> element.</p>
 
                     <!-- TO DO: Add the audio file for this site to the page using HTML5 include a width of 425 -->
+                    <!--- Potential issue with instruction: width is not a valid attribute for the audio element, causing it to fail inspection. -->
+                    <audio controls>
+                        <source src="audio/drum-beat.wav" type="audio/wav">
+                        Your browser does not support the audio element. 
+                    </audio>
                     <a href="https://freesound.org/people/Hewn.Marrow/" target="_blank" class="credit">Audio by Hewn.Marrow on freesound</a>
                 </section>
             </section>
